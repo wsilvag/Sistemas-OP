@@ -1,0 +1,7 @@
+/shared/projects:
+  Group: developers
+  Permissions: drwxrwx---
+
+/shared/testing:
+  Group: testers
+  Permissions: drwxrwxr-x

@@ -1,0 +1,23 @@
+# Troubleshooting Steps
+
+## Problema 1: Apache2 no iniciaba
+- Causa: Archivo de configuración movido/mal configurado.
+- Solución:
+  1. Detener Apache2: `sudo systemctl stop apache2`
+  2. Restaurar configuración: `sudo mv /etc/apache2/apache2.conf.backup /etc/apache2/apache2.conf`
+  3. Iniciar Apache2: `sudo systemctl start apache2`
+  4. Verificar estado: `systemctl status apache2`
+
+## Problema 2: Permisos en /shared/projects
+- Causa: Permisos incorrectos para el grupo "developers".
+- Solución:
+  1. Cambiar grupo: `sudo chgrp developers /shared/projects`
+  2. Asignar permisos: `sudo chmod 770 /shared/projects`
+  3. Verificar: `ls -la /shared/`
+
+## Problema 3: Servicio personalizado no corría
+- Causa: Script sin permisos de ejecución.
+- Solución:
+  1. Dar permisos: `chmod +x /home/walter/simple-service.sh`
+  2. Recargar systemd: `sudo systemctl daemon-reload`
+  3. Reiniciar servicio: `sudo systemctl restart simple-service`

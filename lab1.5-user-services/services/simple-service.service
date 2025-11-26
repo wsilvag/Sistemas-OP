@@ -1,0 +1,13 @@
+[Unit]
+Description=Simple Test Service
+After=network.target
+
+[Service]
+Type=simple
+User=walter
+ExecStart=/home/walter/simple-service.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

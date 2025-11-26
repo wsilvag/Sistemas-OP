@@ -1,0 +1,155 @@
+=== Logs de SSH (última hora) ===
+-- No entries --
+
+=== Logs de Apache2 (última hora) ===
+-- No entries --
+
+=== Logs de errores del sistema (últimas 24 horas) ===
+Nov 24 21:53:03 walleos gdm3[1641]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 24 21:53:03 walleos gdm3[1641]: Gdm: Failed to list cached users: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name :1.6 was not provided by any .service files
+-- Boot 054ae79cb3814d6d8d382fca9f79804b --
+Nov 24 21:53:18 walleos kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Nov 24 21:53:41 walleos gdm-password][1985]: gkr-pam: unable to locate daemon control file
+Nov 24 21:53:41 walleos gdm3[1440]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 24 21:53:41 walleos systemd[1997]: Failed to start app-gnome-gnome\x2dkeyring\x2dsecrets-2223.scope - Application launched by gnome-session-binary.
+Nov 24 21:53:41 walleos systemd[1997]: Failed to start app-gnome-xdg\x2duser\x2ddirs-2241.scope - Application launched by gnome-session-binary.
+Nov 24 21:53:43 walleos kernel: /dev/sr1: Can't open blockdev
+Nov 24 21:53:43 walleos kernel: /dev/sr0: Can't open blockdev
+Nov 24 21:53:44 walleos gdm3[1440]: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 24 21:54:02 walleos gdm3[1440]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 24 21:54:02 walleos gdm3[1440]: Gdm: Failed to list cached users: GDBus.Error:org.freedesktop.systemd1.TransactionIsDestructive: Transaction for accounts-daemon.service/start is destructive (systemd-modules-load.service has 'stop' job queued, but 'start' is included in transaction).
+-- Boot 204f9a3464e34eb981e249530ca0b970 --
+Nov 24 21:59:48 walleos kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Nov 24 22:00:06 walleos gdm-password][1995]: gkr-pam: unable to locate daemon control file
+Nov 24 22:00:06 walleos gdm3[1450]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 24 22:00:06 walleos systemd[2009]: Failed to start app-gnome-gnome\x2dkeyring\x2dpkcs11-2235.scope - Application launched by gnome-session-binary.
+Nov 24 22:00:06 walleos systemd[2009]: Failed to start app-gnome-gnome\x2dkeyring\x2dssh-2227.scope - Application launched by gnome-session-binary.
+Nov 24 22:00:08 walleos kernel: /dev/sr0: Can't open blockdev
+Nov 24 22:00:08 walleos kernel: /dev/sr1: Can't open blockdev
+Nov 24 22:00:09 walleos gdm3[1450]: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 24 22:16:26 walleos gdm3[1450]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 24 22:16:26 walleos gdm3[1450]: Gdm: Failed to list cached users: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name :1.7 was not provided by any .service files
+-- Boot b2e45a47338a4d8e810b178b8dc9b823 --
+Nov 24 22:16:52 walleos kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Nov 24 22:17:22 walleos gdm-password][2000]: gkr-pam: unable to locate daemon control file
+Nov 24 22:17:22 walleos gdm3[1452]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 24 22:17:23 walleos systemd[2013]: Failed to start app-gnome-gnome\x2dkeyring\x2dsecrets-2233.scope - Application launched by gnome-session-binary.
+Nov 24 22:17:23 walleos systemd[2013]: Failed to start app-gnome-xdg\x2duser\x2ddirs-2251.scope - Application launched by gnome-session-binary.
+Nov 24 22:17:24 walleos kernel: /dev/sr0: Can't open blockdev
+Nov 24 22:17:24 walleos kernel: /dev/sr1: Can't open blockdev
+Nov 24 22:17:25 walleos gdm3[1452]: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 24 22:17:40 walleos sudo[3107]:  walters : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/walters ; USER=root ; COMMAND=/usr/sbin/reboot
+Nov 24 22:18:05 walleos gdm3[1452]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 24 22:18:05 walleos gdm3[1452]: Gdm: Failed to contact accountsservice: Error calling StartServiceByName for org.freedesktop.Accounts: Transaction for accounts-daemon.service/start is destructive (systemd-tmpfiles-setup-dev.service has 'stop' job queued, but 'start' is included in transaction).
+-- Boot bb1e2e2929a24597b8f2b4b0706651a6 --
+Nov 24 22:18:32 walleos kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Nov 24 22:18:53 walleos gdm-password][2001]: gkr-pam: unable to locate daemon control file
+Nov 24 22:18:54 walleos gdm3[1452]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 24 22:18:56 walleos systemd[2012]: Failed to start app-gnome-im\x2dlaunch-2428.scope - Application launched by gnome-session-binary.
+Nov 24 22:18:56 walleos kernel: /dev/sr0: Can't open blockdev
+Nov 24 22:18:56 walleos kernel: /dev/sr1: Can't open blockdev
+Nov 24 22:18:57 walleos gdm3[1452]: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 25 00:40:22 walleos gdm3[1452]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 25 00:40:22 walleos gdm3[1452]: Gdm: Failed to list cached users: GDBus.Error:org.freedesktop.systemd1.TransactionIsDestructive: Transaction for accounts-daemon.service/start is destructive (systemd-timesyncd.service has 'stop' job queued, but 'start' is included in transaction).
+-- Boot ff17238a90414f0997a0833174764419 --
+Nov 25 11:40:36 walleos kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Nov 25 11:41:17 walleos gdm-password][2196]: gkr-pam: unable to locate daemon control file
+Nov 25 11:41:18 walleos gdm3[1641]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 25 11:41:18 walleos systemd[2217]: Failed to start app-gnome-gnome\x2dkeyring\x2dsecrets-2432.scope - Application launched by gnome-session-binary.
+Nov 25 11:41:18 walleos systemd[2217]: Failed to start app-gnome-xdg\x2duser\x2ddirs-2457.scope - Application launched by gnome-session-binary.
+Nov 25 11:41:20 walleos systemd[2217]: Failed to start app-gnome-ubuntu\x2dreport\x2don\x2dupgrade-2630.scope - Application launched by gnome-session-binary.
+Nov 25 11:41:20 walleos kernel: /dev/sr0: Can't open blockdev
+Nov 25 11:41:20 walleos kernel: /dev/sr1: Can't open blockdev
+Nov 25 11:41:22 walleos gdm3[1641]: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Nov 25 18:41:48 walleos sudo[6339]:  walters : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/walters/Sistemas-OP ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 25 19:33:30 walleos systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Nov 25 20:03:00 walleos gdm-password][11030]: pam_unix(gdm-password:auth): conversation failed
+Nov 25 20:03:00 walleos gdm-password][11030]: pam_unix(gdm-password:auth): auth could not identify password for [walters]
+
+=== Logs del servicio personalizado (simple-service) ===
+-- No entries --
+
+=== Últimos logins al sistema ===
+walters  tty2         tty2             Tue Nov 25 11:41    gone - no logout
+walters  seat0        login screen     Tue Nov 25 11:41    gone - no logout
+reboot   system boot  6.14.0-36-generi Tue Nov 25 11:40   still running
+walters  tty2         tty2             Mon Nov 24 22:18 - down   (02:21)
+walters  seat0        login screen     Mon Nov 24 22:18 - down   (02:21)
+reboot   system boot  6.14.0-36-generi Mon Nov 24 22:18 - 00:40  (02:21)
+walters  tty2         tty2             Mon Nov 24 22:17 - down   (00:00)
+walters  seat0        login screen     Mon Nov 24 22:17 - down   (00:00)
+reboot   system boot  6.14.0-36-generi Mon Nov 24 22:16 - 22:18  (00:01)
+walters  tty2         tty2             Mon Nov 24 22:00 - down   (00:16)
+walters  seat0        login screen     Mon Nov 24 22:00 - down   (00:16)
+reboot   system boot  6.14.0-36-generi Mon Nov 24 21:59 - 22:16  (00:16)
+walters  tty2         tty2             Mon Nov 24 21:53 - down   (00:00)
+walters  seat0        login screen     Mon Nov 24 21:53 - down   (00:00)
+reboot   system boot  6.14.0-36-generi Mon Nov 24 21:53 - 21:54  (00:00)
+walters  tty2         tty2             Mon Nov 24 19:04 - down   (02:49)
+walters  seat0        login screen     Mon Nov 24 19:04 - down   (02:49)
+reboot   system boot  6.14.0-36-generi Mon Nov 24 19:03 - 21:53  (02:49)
+walters  tty2         tty2             Sat Nov 22 18:55 - down  (1+02:13)
+walters  seat0        login screen     Sat Nov 22 18:55 - down  (1+02:13)
+reboot   system boot  6.14.0-36-generi Sat Nov 22 18:55 - 21:09 (1+02:13)
+walters  tty2         tty2             Sat Nov 22 18:48 - down   (00:06)
+walters  seat0        login screen     Sat Nov 22 18:48 - down   (00:06)
+reboot   system boot  6.14.0-36-generi Sat Nov 22 18:47 - 18:55  (00:07)
+
+wtmp begins Sat Nov 22 18:47:50 2025
+
+=== Estado de últimos logins ===
+Username         Port     From                                       Latest
+root                                                                **Never logged in**
+daemon                                                              **Never logged in**
+bin                                                                 **Never logged in**
+sys                                                                 **Never logged in**
+sync                                                                **Never logged in**
+games                                                               **Never logged in**
+man                                                                 **Never logged in**
+lp                                                                  **Never logged in**
+mail                                                                **Never logged in**
+news                                                                **Never logged in**
+uucp                                                                **Never logged in**
+proxy                                                               **Never logged in**
+www-data                                                            **Never logged in**
+backup                                                              **Never logged in**
+list                                                                **Never logged in**
+irc                                                                 **Never logged in**
+_apt                                                                **Never logged in**
+nobody                                                              **Never logged in**
+systemd-network                                                     **Never logged in**
+systemd-timesync                                                    **Never logged in**
+dhcpcd                                                              **Never logged in**
+messagebus                                                          **Never logged in**
+syslog                                                              **Never logged in**
+systemd-resolve                                                     **Never logged in**
+uuidd                                                               **Never logged in**
+usbmux                                                              **Never logged in**
+tss                                                                 **Never logged in**
+systemd-oom                                                         **Never logged in**
+kernoops                                                            **Never logged in**
+whoopsie                                                            **Never logged in**
+dnsmasq                                                             **Never logged in**
+avahi                                                               **Never logged in**
+tcpdump                                                             **Never logged in**
+sssd                                                                **Never logged in**
+speech-dispatcher                                                    **Never logged in**
+cups-pk-helper                                                      **Never logged in**
+fwupd-refresh                                                       **Never logged in**
+saned                                                               **Never logged in**
+geoclue                                                             **Never logged in**
+cups-browsed                                                        **Never logged in**
+hplip                                                               **Never logged in**
+gnome-remote-desktop                                                    **Never logged in**
+polkitd                                                             **Never logged in**
+rtkit                                                               **Never logged in**
+colord                                                              **Never logged in**
+gnome-initial-setup                                                    **Never logged in**
+gdm                                                                 **Never logged in**
+nm-openvpn                                                          **Never logged in**
+walters                                                             **Never logged in**
+alice                                                               **Never logged in**
+bob                                                                 **Never logged in**
+charlie                                                             **Never logged in**
+temp_user                                                           **Never logged in**
+service_account                                                     **Never logged in**

@@ -1,0 +1,61 @@
+=== System Performance Report ===
+Generated on: Tue Nov 25 07:41:45 PM CST 2025
+
+=== System Information ===
+Linux walleos 6.14.0-36-generic #36~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Oct 15 15:45:17 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+=== CPU Information ===
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           45 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               GenuineIntel
+Model name:                              Intel(R) Core(TM) Ultra 7 155H
+CPU family:                              6
+Model:                                   170
+
+=== Memory Usage ===
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       1.4Gi       5.1Gi        33Mi       1.6Gi       6.3Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+=== Disk Usage ===
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           790M  2.0M  788M   1% /run
+/dev/sda2        30G   11G   18G  36% /
+tmpfs           3.9G     0  3.9G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           790M  128K  790M   1% /run/user/1000
+/dev/sr0         96M   96M     0 100% /media/walters/CDROM
+/dev/sr1        6.0G  6.0G     0 100% /media/walters/Ubuntu 24.04.3 LTS amd64
+
+=== Load Average ===
+ 19:41:45 up  2:46,  1 user,  load average: 0.02, 0.08, 0.08
+
+=== Top 10 CPU Processes ===
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+walters     2454  1.1  3.5 4418884 290568 ?      Ssl  16:56   1:58 /usr/bin/gnome-shell
+walters     9869  0.7  2.6 835884 213160 ?       SNl  19:30   0:05 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+root         762  0.4  0.1 318480  9528 ?        Ssl  16:55   0:46 /usr/bin/vmtoolsd
+walters     2625  0.4  0.4 214432 38040 ?        Sl   16:56   0:45 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+walters     2229  0.4  0.2 120704 19332 ?        Ssl  16:56   0:44 /usr/bin/pipewire
+walters     3273  0.2  0.7 703396 59716 ?        Ssl  16:56   0:28 /usr/libexec/gnome-terminal-server
+root        6566  0.1  0.0      0     0 ?        I    19:15   0:02 [kworker/u514:3-events_unbound]
+root        8972  0.1  0.0      0     0 ?        I    19:28   0:01 [kworker/2:1-mm_percpu_wq]
+root           1  0.1  0.1  23248 14480 ?        Ss   16:55   0:11 /sbin/init splash
+root        6723  0.0  0.0      0     0 ?        I    19:22   0:01 [kworker/u513:4-events_power_efficient]
+
+=== Top 10 Memory Processes ===
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+walters     2454  1.1  3.5 4418884 290568 ?      Ssl  16:56   1:58 /usr/bin/gnome-shell
+walters     9869  0.7  2.6 835884 213160 ?       SNl  19:30   0:05 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+walters     2906  0.0  1.1 277060 91680 ?        S    16:56   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.5XVKG3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+walters     3222  0.0  1.1 738080 89816 ?        Sl   16:56   0:00 /usr/libexec/mutter-x11-frames
+walters     3086  0.0  1.0 657248 83116 ?        Ssl  16:56   0:00 /usr/libexec/gsd-xsettings
+walters     2622  0.0  0.7 897480 63576 ?        Sl   16:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+walters     3273  0.2  0.7 703396 59716 ?        Ssl  16:56   0:28 /usr/libexec/gnome-terminal-server
+walters     6248  0.0  0.7 3142368 59068 ?       Sl   18:37   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+root        4938  0.0  0.5 600564 43964 ?        Ssl  17:08   0:02 /usr/libexec/fwupd/fwupd
+walters     2551  0.0  0.5 1272704 43432 ?       Ssl  16:56   0:00 /usr/libexec/evolution-source-registry

@@ -1,0 +1,3 @@
+developers:x:1006:alice,bob
+testers:x:1007:charlie
+administrators:x:1008:alice
