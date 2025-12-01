@@ -1,0 +1,5 @@
+alice:x:1001:1001:Alice Johnson - Lead Developer:/home/alice:/bin/bash
+bob:x:1002:1002:Bob Smith - Junior Developer:/home/bob:/bin/bash
+charlie:x:1003:1003:Charlie Brown - QA Tester:/home/charlie:/bin/bash
+temp_user:x:1004:1004::/home/temp_user:/bin/bash
+service_account:x:1005:1005::/nonexistent:/usr/sbin/nologin

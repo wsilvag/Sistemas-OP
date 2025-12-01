@@ -1,0 +1,2 @@
+# Allow developers group to restart web services
+%developers ALL=(ALL) NOPASSWD: /bin/systemctl restart apache2, /bin/systemctl restart nginx

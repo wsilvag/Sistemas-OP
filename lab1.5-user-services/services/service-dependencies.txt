@@ -1,0 +1,7 @@
+sshd.service:
+  - sysinit.target
+  - basic.target
+  - network.target
+
+apache2.service:
+  - network.target
